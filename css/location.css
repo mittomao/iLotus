@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: LatoLatin-Regular;
+    src: url(../fonts/lato/LatoLatin-Regular.woff2);
+}
+body{
+    font-family: LatoLatin-Regular;
+}
+h1.location{
+    text-align: center;
+    font-size: 48px;
+}
+.wrapper_high{
+    padding: 15px;
+    border:1px solid #e6e6e6;
+    border-radius: 10px;
+}
+.wrapper1
+{
+    padding-top: 1em;
+}
+h4.title_high{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    /* text-decoration: underline; */
+    color: #0064a8;
+    font-weight: 700;
+}
+p.text_high{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: LatoLatin-Regular;
+}
+
+.wrapper2 ul{
+    padding-left: 25px;
+
+}
+.wrapper2 ul li{
+    list-style-type: disc;
+}
+
+/* Tab */
+
+.tab__content{
+    position: relative;
+    margin-top: 50px;
+}
+.sportligh .tab-content{
+    display: block;
+    padding-top: 20px;
+}
+/*  */
+.sportligh{
+    margin-top: 30px;
+}
+
+.sportligh__wrap{
+    padding: 0 15px 15px 15px;
+    border:1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+.sportligh .tabs_row{
+    display: flex;
+    align-items: center;
+}
+.sportligh .tabs_row li{
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+}
+.tabs_row li a{
+    color: #2980b9;
+    font-size: 16px;
+    display: block;
+    font-family: Latolatin-Regular;
+    text-decoration: none;
+}
+.tabs_row li.active{
+    background-color: #0064a8;
+    border-color: #0064a8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.tabs_row li.active a{
+    color: #fff;
+}
+
+/* similar */
+.product_similar{
+    margin-top: 30px;
+}
+h3.title_similar{
+    font-size: 24px;
+    color: #0064a8;
+    font-weight: 800;
+    text-align: left;
+    line-height: 1.6;
+    border-bottom: 2px dashed #0064a8;
+}
+
+
+
+/* Path */
+.path{
+    margin-top: 30px;
+}
+ul.list_path{
+    display: flex;
+}
+
+ul.list_path li{
+    margin-right: 15px;
+    position: relative;
+
+}
+ul.list_path li a{ 
+    font-size: 14px;
+    color:#010b5c;
+    font-weight: 600;
+}
+
+ul.list_path li:not(:last-child)::before{
+    content: '/';
+    position: absolute;
+    top: 0;
+    right: -10px;
+} 
+
+@media (max-width : 575px)
+{
+    .sportligh .tabs_row li {
+        padding: 5px 0;
+    }
+    .tabs_row li a {
+        font-size: 12px;
+    }
+
+    h4.title_high {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .tab-panel p {
+        font-size: 13px;
+    }
+}

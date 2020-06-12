@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/check.css">
+    <link rel="stylesheet" href="./css/mega-menu.css">
+    <link rel="icon" href="images/img/icon.png">
+    <title>iLOTUS TOURS</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="nav-home">
+            <nav class="navbar navbar-expand-sm static-top" style="position: relative">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./images/img/logo.png" width="180px" alt="">
+                    </a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+                        <i class="fas fa-bars"></i> Menu
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <div class="bookmoblie d-lg-none">
+            <a class="nav-link" href="Devissurmesure.html">Devis sur mesure</a>
+        </div>
+    </header>
+
+    <style>
+       
+        .bookmoblie {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .bookmoblie a {
+            z-index: 100px;
+            background: #dcaf27;
+            color: white;
+            padding: 10px 5px;
+            border-radius: 5px;
+        }
+    </style>
+
+    <div style="position: relative;">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000" style="z-index: 10">
+            <div class="carousel-inner img-banner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/3.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/2.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/4.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <i class='fas fa-arrow-circle-left'></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <i class='fas fa-arrow-circle-right'></i>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <span class="position-absolute trigger"></span>
+    <nav class="navbar navbar-expand-sm sticky-top navbar--mb" style="z-index: 10" >
+        <div class="container">
+            <!-- <div class="close-menu">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div> -->
+            <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+                <i class="fas fa-bars"></i> Menu
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav efferhover" style="margin: auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About us</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class="nav-link" href="tour.html">Tours</a>
+                    </li>
+                    <li class=" nav-item sub_menu">
+                        <a class="nav-link" href="#">Destination </a>
+                        <ul class="menu_flex">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col col-12 col-md-4">
+                                        <div class="menu__img">
+                                            <img src="https://www.amica-travel.com/assets/img/page2016/img-mn-panel-1.jpg"
+                                                alt="">
+                                            <div class="country_detail">
+                                                <p>Địa danh nổi tiếng</p>
+                                                <p>Danh Lam Thắng Cảnh Nổi Bật
+                                                    
+                                                </p>
+                                                <p class="button_menu--mg">
+                                                    <a href="#" class="button_menu padding-3">Xem Chi Tiết</a>
+                                                </p>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                    <div class="col col-12 col-md-8">
+                                        <div class="menu__list">
+                                            <div class="row">
+                                                <div class="col col-lg-2 col-md-4 col-4 mb-3">
+                                                    <h4 class="title_country">
+                                                        Việt Nam
+                                                    </h4>
+                                                    <ul class="list__area">
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col col-lg-2 col-md-4 col-4 mb-3">
+                                                    <h4 class="title_country">
+                                                        Lào
+                                                    </h4>
+                                                    <ul class="list__area">
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+    
+                                                    </ul>
+                                                </div>
+                                                <div class="col col-lg-2 col-md-4 col-4 mb-3">
+                                                    <h4 class="title_country">
+                                                        Campuchia
+                                                    </h4>
+                                                    <ul class="list__area">
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col col-lg-2 col-md-4 col-4 mb-3">
+                                                    <h4 class="title_country">
+                                                        Malaysia
+                                                    </h4>
+                                                    <ul class="list__area">
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col col-lg-2 col-md-4 col-4 mb-3">
+                                                    <h4 class="title_country">
+                                                        Philippin
+                                                    </h4>
+                                                    <ul class="list__area">
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+    
+                                                    </ul>
+                                                </div>
+                                                <div class="col col-lg-2 col-md-4 col-4 mb-3">
+                                                    <h4 class="title_country">
+                                                        Japan
+                                                    </h4>
+                                                    <ul class="list__area">
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                        <li><a href="destination.html">Hà Tây</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class=" nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end Header -->
+
+    <!-- gt Việt Nam -->
+    <div class="about">
+        <div class="col-lg-8 text-about wow fadeInUp" style="padding-top: 50px">
+            <h1 class="">Welcome to <span class="hight_line_headding">LEMC</span></h1>
+            <p>Welcome to LEDMC! LEDMC is a team of people with a full of passion, energy and experience. LEDMC was set up by principal aim to bring satisfaction and pleasure to our clients by giving them our best service with best price. We offer private
+                tours and group joining tours in Asia. Tours includes selective day trips, hotels, cruises, transfers and hospitable guides to the best sightseeing spots. We can customize the package tours to suit our clients budget. We want to show you
+                Asia’s wonderful natural beauty. The Asia region is our life; we live and breathe the culture, traditions and beliefs every moment of every day. We’re very proud of the greatness of our homeland and its neighbors, and it’s our absolute
+                pleasure to show you everything we love about it. </BR> LEDMC helps you to save your valuable time and provide you package tours with high quality. We have a devoted team of tour guides who can speak English, French, Spanish, Russian,
+                Japanese, Chinese and other languages. Their professionalism, personality and outstanding knowledge are the reasons they are employed by us. We will try our best to make your holidays memorable. </p>
+        </div>
+    </div>
+
+    <!-- Điểm đến -->
+    <!-- best tour -->
+    <section class="best_destination">
+        <div class="container">
+            <div class="title_besst_des">
+                <h2>New Post</b></h2>
+            </div>
+            <div id="slide_destination" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="img_slider_des">
+                        <a href="detailtour.html" title="">
+                            <img src="./images/5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap_content_des">
+                        <h3>
+                            <a href="detailtour.html" title="">Discover Yangon in Depth on 5 days</a>
+                        </h3>
+                        <p class="content_des"> This Myanmar tour allows you to discover the depth of its ancient capital, Yangon and its surroundings Golden Rock. Yangon is also the heartbeat of Myanmar and treasures a lot of cultural highlights. </p>
+                        <a class="view" href="detailtour.html" title="">view details</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_slider_des">
+                        <a href="detailtour.html" title="">
+                            <img src="./images/5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap_content_des">
+                        <h3>
+                            <a href="detailtour.html" title="">Discover Yangon in Depth on 5 days</a>
+                        </h3>
+                        <p class="content_des"> This Myanmar tour allows you to discover the depth of its ancient capital, Yangon and its surroundings Golden Rock. Yangon is also the heartbeat of Myanmar and treasures a lot of cultural highlights. </p>
+                        <a class="view" href="detailtour.html" title="">view details</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_slider_des">
+                        <a href="detailtour.html" title="">
+                            <img src="./images/5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap_content_des">
+                        <h3>
+                            <a href="detailtour.html" title="">Discover Yangon in Depth on 5 days</a>
+                        </h3>
+                        <p class="content_des"> This Myanmar tour allows you to discover the depth of its ancient capital, Yangon and its surroundings Golden Rock. Yangon is also the heartbeat of Myanmar and treasures a lot of cultural highlights. </p>
+                        <a class="view" href="detailtour.html" title="">view details</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_slider_des">
+                        <a href="detailtour.html" title="">
+                            <img src="./images/5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap_content_des">
+                        <h3>
+                            <a href="detailtour.html" title="">Discover Yangon in Depth on 5 days</a>
+                        </h3>
+                        <p class="content_des"> This Myanmar tour allows you to discover the depth of its ancient capital, Yangon and its surroundings Golden Rock. Yangon is also the heartbeat of Myanmar and treasures a lot of cultural highlights. </p>
+                        <a class="view" href="detailtour.html" title="">view details</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_slider_des">
+                        <a href="detailtour.html" title="">
+                            <img src="./images/2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap_content_des">
+                        <h3>
+                            <a href="detailtour.html" title="">Discover Yangon in Depth on 5 days</a>
+                        </h3>
+                        <p class="content_des"> This Myanmar tour allows you to discover the depth of its ancient capital, Yangon and its surroundings Golden Rock. Yangon is also the heartbeat of Myanmar and treasures a lot of cultural highlights. </p>
+                        <a class="view" href="detailtour.html" title="">view details</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_slider_des">
+                        <a href="detailtour.html" title="">
+                            <img src="./images/3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap_content_des">
+                        <h3>
+                            <a href="detailtour.html" title="">Discover Yangon in Depth on 5 days</a>
+                        </h3>
+                        <p class="content_des"> This Myanmar tour allows you to discover the depth of its ancient capital, Yangon and its surroundings Golden Rock. Yangon is also the heartbeat of Myanmar and treasures a lot of cultural highlights. </p>
+                        <a class="view" href="detailtour.html" title="">view details</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Quy trình -->
+    <footer>
+        <div class="col-11" style="margin: auto">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Our offices</h5>
+                    <p>62/53 / 6A, Lam van Ben, District 7, Ho Chi Minh City</p>
+
+
+                </div>
+                <div class="col-md-3">
+                    <h5>Tailor made trip to Indochina | Local travel agencies</h5>
+                    <div class="network" style="padding-top: 10px;">
+
+                        <a href="" rel="nofollow"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" rel="nofollow"><i class="fab fa-twitter"></i></a>
+                        <a rel="nofollow"> <i class="fab fa-tripadvisor"></i></a>
+                        <a href="+84976211195" rel="nofollow"> <i class="fab fa-whatsapp"></i></a>
+                        <a href="" rel="nofollow"><i class="fab fa-skype"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Forums reviews and ratings</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#"> <img src="./images/trip.png" width="100%" alt=""></a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="visa">
+                        <h5>Nous Acceptons Le Paiement Via</h5>
+                        <a href="#"><i class="fab fa-cc-visa"></i></a>
+                        <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                        <a href="#"> <i class="fab fa-cc-jcb"></i></a>
+                        <a href="#"> <i class="fab fa-cc-amex"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid end-ft">
+            <div class="col-11" style="margin: auto">
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <p>© 2019 iLOTUS TOURS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="backtop">
+        <a id="button"></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+
+</html>
+<script src="js/wow.min.js"></script>
+<script src="js/jsindex.js"></script>
+<script src="js/check.js"></script>
+<script src="js/mega-menu.js"></script>
+<script>
+    new WOW().init();
+
+
+    var btn = $('#button');
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 100) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, '100');
+    });
+
+
+    var scrollTop = $('#action-bar');
+    $(window).scroll(function() {
+        var topPos = $(this).scrollTop();
+        if (topPos > 400) {
+            $(scrollTop).css("opacity", "1");
+        } else {
+            $(scrollTop).css("opacity", "0");
+        }
+    });
+</script>
+
+
+<style>
+
+</style>

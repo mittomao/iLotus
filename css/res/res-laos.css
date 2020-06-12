@@ -1,0 +1,116 @@
+@media (max-width: 1200px) {
+    .new-tour button.owl-prev {
+        top: 23%;
+    }
+
+    .new-tour button.owl-next {
+        top: 23%;
+    }
+
+    .check {
+        top: 70%;
+    }
+
+    .i-tour {
+        left: 145px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .check {
+        top: 28%;
+    }
+
+    .new-tour button.owl-prev {
+        left: 7%;
+    }
+
+    .new-tour button.owl-next {
+        right: 7%;
+    }
+
+    .i-tour {
+        left: 150px;
+    }
+}
+
+@media (max-width: 991px) {
+    .i-tour {
+        left: 95px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .check {
+        top: 35%;
+    }
+
+    .new-tour button.owl-prev {
+        left: 9%;
+        top: 30%;
+    }
+
+    .new-tour button.owl-next {
+        right: 9%;
+        top: 30%;
+    }
+
+    .i-tour {
+        left: 95px;
+    }
+}
+
+@media (max-width: 767px) {
+    .i-tour {
+        left: 300px;
+    }
+}
+
+@media (max-width: 599px) {
+    .new-tour button.owl-prev {
+        left: 12%;
+        top: 40%;
+    }
+
+    .new-tour button.owl-next {
+        right: 12%;
+        top: 40%;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .check {
+        top: 72%;
+    }
+
+    .new-tour button.owl-prev {
+        left: 16%;
+    }
+
+    .new-tour button.owl-next {
+        right: 16%;
+    }
+
+    .i-tour {
+        left: 200px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .check {
+        top: 65%;
+    }
+
+    .new-tour button.owl-prev {
+        left: 18%;
+    }
+
+    .new-tour button.owl-next {
+        right: 18%;
+    }
+
+
+}

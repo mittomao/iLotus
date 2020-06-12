@@ -1,0 +1,45 @@
+*{
+    scroll-behavior: smooth;
+}
+.menuphu{
+    margin-top: 50px;
+}
+.menuphu ul{
+    text-align: center;
+}
+.menuphu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(2, 31, 93);
+    padding: 5px;
+}
+.menuphu ul li:hover{
+    background: #f0cd0a;
+}
+.menuphu ul li a{
+    text-decoration: none;
+    color: #033b70;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mnp1{
+    padding: 5px;
+    background: #f0cd0a;
+    color: white !important;
+}
+
+.fixed-header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background: #014d92;
+    z-index: 100;
+}
+.fixed-header ul li{
+    border-bottom: 1px solid #fff;
+}
+.fixed-header ul li a{
+    color: #fff;
+}

@@ -1,0 +1,255 @@
+@font-face {
+    font-family: LatoLatin-Regular;
+    src: url(../fonts/lato/LatoLatin-Regular.woff2);
+}
+
+.area-search-menu {
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+    .area-search-menu .column {
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .area-search-menu .group-search p {
+        font-size: 18px;
+        font-family: LatoLatin-Regular;
+        margin: 17px 0 7px;
+        text-align: left
+    }
+
+        .area-search-menu .group-search p > span {
+            font-size: 15.5px;
+            font-family: LatoLatin-Regular;
+            text-transform: uppercase
+        }
+
+    .area-search-menu .group-search {
+        width: 100%;
+        float: left;
+        position: relative
+    }
+
+    .area-search-menu .icon-des,
+    .area-search-menu .icon-envies {
+        width: 45px;
+        height: 48px;
+        display: inline-block;
+        text-align: center;
+        background: #02044d;
+        border-radius: 3px 0 0 3px;
+        float: left
+    }
+
+        .area-search-menu .icon-des i {
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            left: 15px;
+            top: 10px;
+        }
+
+        .area-search-menu .icon-des:before,
+        .area-search-menu .icon-envies:before {
+            content: "";
+            margin-top: 6px;
+            width: 28px;
+            height: 24px;
+            background: url(https://www.amica-travel.com/assets/img/new-home/xicon-search-home.png.pagespeed.ic.n3aLg_5cwA.webp) 1px top no-repeat transparent;
+            display: inline-block
+        }
+
+        .area-search-menu .icon-envies:before {
+            background-position: -27px top
+        }
+
+.group-search .cs-select {
+    background-color: #fff;
+    border-radius: 0 3px 3px 0;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    float: left;
+    cursor: pointer
+}
+
+    .group-search .cs-select.active {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0
+    }
+
+    .group-search .cs-select.destination,
+    .group-search .cs-select.une-envie {
+        /*width: 320px;*/
+        height: 48px !important;
+        margin-right: 18px;
+        border-radius: 5px 3px 3px 5px;
+        position: absolute;
+		border-radius: 5px;
+        left: 0;
+        bottom: 0;
+        height: auto;
+        transition: max-height .5s;
+        z-index: 99999;
+        overflow: hidden;
+    }
+
+    .group-search .cs-select.une-envie {
+        left: 340px
+    }
+
+        .group-search .cs-select.destination.active,
+        .group-search .cs-select.une-envie.active {
+            max-height: 300px;
+            transition: max-height .5s
+        }
+
+    .group-search .cs-select .cs-options {
+        /*padding: 0 10px;*/
+        background: #fff;
+        display: none;
+        bottom: 100%;
+        overflow-y: auto;
+        max-height: 300px
+    }
+
+        .group-search .cs-select .cs-options.cs-options-active {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            display: block
+        }
+
+    .group-search .cs-select.destination .cs-options {
+        width: 100%
+    }
+
+    .group-search .cs-select.une-envie .cs-options {
+        width: auto;
+        padding-bottom: 10px
+    }
+
+    .group-search .cs-select .cs-options ul {
+        margin: 0;
+        padding: 10px 0 0;
+        list-style: none;
+        width: 100%;
+        display: inline-block
+    }
+
+        .group-search .cs-select .cs-options ul li {
+            line-height: 22px;
+            text-align: left;
+            padding: 3px 0 3px 32px;
+            background: url(https://www.amica-travel.com/assets/img/new-home/xbg_list_new.png.pagespeed.ic.RpWCeFsClz.webp) 10px 5px no-repeat transparent;
+            font-size: 13.5px;
+            font-family: LatoLatin-Regular;
+            color: #010b5c;
+            font-weight: bold;
+        }
+
+    .group-search .cs-select.destination .cs-options ul li {
+        display: inline-block;
+        width: 50%;
+        box-sizing: border-box;
+        float: left
+    }
+
+    .group-search .cs-select .cs-options ul li:hover {
+        color: #cda11a;
+    }
+
+    .group-search .cs-select .cs-options ul li.active {
+        background-position: 10px -28px
+    }
+
+.group-search .submit {
+    float: right;
+    width: 254px;
+    height: 40px;
+    background: #cda11a;
+    border-radius: 3px;
+    font: 16px LatoLatin-Bold, sans-serif;
+    text-transform: inherit;
+    text-align: center;
+    line-height: 43px
+}
+
+    .group-search .submit:hover {
+        opacity: .8
+    }
+
+.group-search .cs-placeholder {
+    font-size: 16px;
+    font-family: LatoLatin-Regular;
+    color: #353535;
+    display: block;
+    /*padding-right: 40px;*/
+    background: url('../images/img/arrow.png') right 15px center no-repeat transparent;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 43px;
+    float: left;
+    width: 230px;
+    height: 45px;
+	color: #010b5c;
+	font-weight: bold;
+    position: relative;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+	padding-top: 4px;
+    white-space: nowrap
+}
+
+.group-search .cs-select.active .cs-placeholder {
+    border-bottom: 1px solid #fff
+}
+
+.group-search .cs-select .list-option {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #d2c9b1;
+    border-radius: 3px;
+    width: 100%;
+    z-index: 2
+}
+
+.group-search .cs-select.une-envie .list-option {
+    width: 231px
+}
+.group-search .cs-select .list-option ul li:first-child {
+    margin-top: 5px
+}
+
+.group-search .cs-select .list-option ul li:last-child {
+    margin-bottom: 5px
+}
+
+
+@media(max-width: 414px){
+	 .group-search .cs-select.destination,
+    .group-search .cs-select.une-envie {
+        left: 20px;
+		width: 320px;
+    }
+	.group-search .cs-placeholder{
+		width: 270px;
+		height: 45px
+	}
+}
+
+@media(max-width: 768px){
+	 .group-search .cs-select.destination,
+    .group-search .cs-select.une-envie {
+        left: 20px;
+		width: 160px;
+    }
+	.group-search .cs-placeholder {
+		width: 80px
+	}
+}

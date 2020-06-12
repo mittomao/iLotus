@@ -1,0 +1,206 @@
+.tt_n h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.tt_n h5{
+  text-align: center;
+  margin-top: 20px;
+}
+.tt_n a{
+  color: black;
+}
+.tt_n a:hover{
+  color: #cda11a;
+}
+
+.whyus{
+  margin-top: 50px;
+  text-align: justify;
+}
+.whyus h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* info */
+.nd-sidebar{
+    background: rgb(250, 245, 245);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.nd-sidebar h4{
+    text-align: center;
+}
+.nd-sidebar h6{
+    text-align: left;
+    margin-top: 10px;
+}
+.dtdd{
+    padding: 10px;
+}
+.dtdd a{
+    padding: 5px;
+    border: 1px solid #014d92;
+    text-decoration: none;
+}
+.dtdd i{
+    font-size: 13px;
+}
+.nd-sidebar .row{
+    margin-bottom: 30px;
+}
+
+
+
+/* //info */
+.nd-info{
+    margin-bottom: 50px;
+}
+/* / */
+.DIVCARD1 {
+    padding-top: 40px;
+    position: relative;
+    background-color: white;
+    /* font-family:Lato-Regular; */
+  }
+  
+  .dateHEADER1, .bannerBODY1 {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  .bannerBODY1 {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    padding: 8px 14px;
+    line-height: 14px;
+  }
+  .bannerBODY1 span{
+    margin-right: 20px;
+  }
+  .dateHEADER1 {
+    position: absolute;
+    right: 0;
+    background: #cda11a;
+    border-radius: 5px;
+    padding: 5px 17px;
+    line-height: 15px;
+    margin: 20px 20px 0 0;
+  }
+  
+  .mainBODY1 {
+    background-color: white;
+    border-radius: 0 0 1px 1px;
+    padding: 0 26px 26px 26px;
+  }
+  
+  .bodyHeader1 {
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    background-color: white;
+    transition: all .5s ease-in-out;
+    width: 100%;
+    z-index: 1;
+    padding-bottom: 0px !important;
+  }
+  
+    .bodyHeader1 a {
+        color: black;
+    }
+  
+  .BodyDescription1 {
+    opacity: 0;
+    color: #757B82;
+    line-height: 25px;
+    transition: all .1s ease-in-out;
+  }
+  
+  .DIVCARD1:hover .cardHeaderHidden1 {
+    background-color: rgba(0, 0, 0, 0.377);
+  }
+  
+  .cardHeaderHidden1 {
+    height: 100%;
+    transition: all .3s ease-in-out;
+  }
+  
+  .DIVCARD1:hover .BodyDescription1 {
+    opacity: 10;
+    transition: all .5s ease-in-out;
+    color: black;
+  }
+  
+  .BodyDescription1 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    font-size: 13px;
+  }
+  
+  .DIVCARD1:hover .bodyHeader1 {
+    margin-top: -50px;
+  }
+  /* EndTour */
+  
+  /* detail-info */
+  .all-icon{
+    margin-top: 120px;
+  }
+
+
+  .col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+  
+/* //allicon */
+.all-icon .row{
+  margin-bottom: 30px;
+}
+.img-icon{
+  text-align: center;
+}
+.img-icon img{
+  margin-bottom: 10px;
+}
+.cardHeaderHidden2{
+    transition: all .3s ease-in-out;
+}
+
+/* dropdown */
