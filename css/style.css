@@ -759,9 +759,20 @@ box-sizing: border-box;
     transition: all .5s ease-in-out;
     width: 100%;
 }
+.bodyHeader span.day {
+    font-size: 14px;
+    line-height: 30px;
+}
 
 .bodyHeader a {
-    color: black;
+    text-decoration: none;
+    cursor: pointer;
+   display:block;
+   font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 400;
 }
 
 .BodyDescription {
@@ -769,8 +780,27 @@ box-sizing: border-box;
     color: #757B82;
     line-height: 25px;
     transition: all .1s ease-in-out;
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.BodyDescription span.price{
+    font-size:18px;
+    font-family: cursive;
+    font-weight: 600;
+ }
+ .BodyDescription a{
+         line-height:25px;
+         background:#f39c12;
+         padding: 3px 10px;
+         border-radius: 5px;
+         font-size:14px
+  }
+  .sportligh__price a:hover{
+     color: #fff;
+ }
 .DIVCARD:hover .cardHeaderHidden {
     background-color: rgba(0, 0, 0, 0.377);
 }
@@ -799,7 +829,7 @@ box-sizing: border-box;
 }
 
 .BodyDescription a {
-    font-size: 16px;
+    font-size: 14px;
     color: #1204da !important;
     font-family: LatoLatin-Bold;
 }

@@ -64,7 +64,11 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 
 .tab-location
 {
-
+    
+}
+.tab-content
+{
+    background:transparent;
 }
 .tab-location .card-header a{
     text-decoration: none;
@@ -98,6 +102,88 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 }
 
 /* End Tab Location */
+
+
+
+
+/* sportligh */
+.sportligh{
+}
+.sportligh__wrap{
+    background:#f4f4f4;
+
+}
+.sportligh__item{
+    width: 100%;
+    background-color:transparent;
+}
+.sportligh__img {
+    width: 100%;
+    position: relative;
+}
+
+.sportligh__img  img{
+    width: 100%;
+    object-fit: cover;
+}
+.sportligh__img  span{
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 20px;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    font-weight:400;
+}
+.sportligh__body {
+        padding: 10px;
+        background:#fff;
+}
+.sportligh__body span.day{
+    font-size: 14px;
+    line-height: 30px;
+
+}
+.sportligh__body a{
+    text-decoration: none;
+    cursor: pointer;
+   display:block;
+   font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 400;
+}
+.sportligh__body > a:hover{
+    color: #f39c12;
+}
+
+.sportligh__price{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sportligh__price span.price{
+   font-size:18px;
+   font-family: cursive;
+   font-weight: 600;
+}
+.sportligh__price a{
+        line-height:30px;
+        background:#f39c12;
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-size:14px
+ }
+ .sportligh__price a:hover{
+    color: #fff;
+}
+/* End sportligh */
+
+
+
+
 /* map-content */
 .map-content{
     padding: 50px 0;

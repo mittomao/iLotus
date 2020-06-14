@@ -86,8 +86,8 @@ p.text_high{
 .tabs_row li.active{
     background-color: #0064a8;
     border-color: #0064a8;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 .tabs_row li.active a{
     color: #fff;
