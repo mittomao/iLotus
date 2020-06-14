@@ -1,0 +1,241 @@
+body{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+#goTop{
+    padding: 10px 15px;
+}
+.section-page-title{
+    background-color: rgb(244,244,245);
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+.page-title{
+    text-align: center;
+    font-family: poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 6px;
+}
+ul.breadcrumb {
+    text-align: center;
+    margin: 0px;
+    list-style: none;
+    background-color:rgb(244,244,245);
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 13px;
+    font-family: poppins;
+}
+ul.breadcrumb li+li:before {
+    padding: 13px;
+    color: rgb(215,215,215);
+    content: "\2022";
+}
+ul.breadcrumb li a {
+    color: rgb(102,102,102);
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: rgb(254,79,24);
+    text-decoration: none;
+}
+section{
+    font-family: poppins;
+}
+.section-cart-content{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.section-cart-content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.section-cart-content th, .section-cart-content td{
+    padding: 15px;
+    text-align: center;
+}
+.section-cart-content td{
+    padding: 25px;
+}
+.section-cart-content .name, .price, .total{
+    font-weight: bold;
+}
+table, td, th{  
+    border: 1px solid #e6e6e6;
+}
+.cart__product__quantity{
+    margin-bottom: 10px;
+}
+.cart__product__quantity input[type="number"] {
+    -moz-appearance: textfield;
+    border: none;
+    height: 40px;
+    line-height: 40px;
+    width: 38px;
+    font-size: 15px;
+    font-weight: 600;
+    background: rgb(235,235,235);
+    margin: 0 7px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.cart__product__quantity span{
+    background-color: rgb(235,235,235);
+    padding: 10px 7px;
+    cursor: pointer;    
+}
+.cart__product__quantity span.minus{
+    margin-left: 0px;   
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.btn-action{
+    border:none;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 2px;
+}
+.btn-action:hover{
+    background-color: rgb(254,79,24);
+    color: #fff;
+}
+.cart__list__product{
+    margin-bottom: 20px;
+}
+.cart__bottom .bottom__item{
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    min-height: 230px;
+    margin-bottom: 15px;
+}
+.bottom__note__title{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.bottom__note__box{
+    display: block;
+}
+
+.bottom__note__box textarea{
+    width:100%;
+    height: 160px;
+    padding: 10px;
+    background-color: rgb(244,244,245);
+    border: none;
+    overflow: auto;
+    outline: none;
+}
+.bottom__note__title .btn-note{
+    background-color: rgb(254,79,24);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 5px;
+    margin-right: 10px;
+}
+.cart__bottom .cart__bottom__total{
+    text-align: right;
+}
+.cart__bottom__subtotal{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.cart__bottom__subtotal__title{
+    margin-right: 15px;
+}
+.cart__bottom__subtotal__price{
+    color: rgb(254,79,24);
+}
+.cart__bottom__shipping{
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__nav .nav__menu .navbar-collapse{
+        display: none;
+    }
+    .header__nav .nav__menu .navbar-collapse.in{
+        display: block;
+        background-color: rgb(255,194,174);
+        margin-top: 20px;
+    }
+    .section-page-title{
+        margin-bottom: 30px;
+        padding: 15px 0px;
+    }
+    .section-cart-content td {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    th.price, td.price{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.section-cart-content td{
+        text-align: left;  
+    }
+	
+	td { 
+		border: none;
+    }
+    table{
+        border: none;
+    }
+    tbody{
+        border: none;
+    }
+    tr{
+        border: 1px solid #e6e6e6;
+        margin-bottom: 20px;
+    }
+    td.total{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    td.image{
+        float: left;
+        width: 53%;
+    }
+    td.image img{
+        width: 100%;
+        max-height: 168px;
+        object-fit: contain;
+    }
+    .cart__bottom .cart__bottom__total button{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    td.quantity{
+        clear: both;
+    } 
+    .newsletter .newsletter__info__text {
+        word-break: normal;
+        line-height: 1.5;
+    }
+}

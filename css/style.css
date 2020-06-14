@@ -191,7 +191,9 @@ a {
     background: #014d92;
     z-index: 10;
 }
-
+.efferhover .nav-item{
+    position: relative;
+}
 .nav-item a {
     color: #ffffff;
     font-size: 14px;
@@ -200,7 +202,35 @@ a {
 }
 
 a.nav-link {
-    text-align: center;
+    display: inline-block;
+}
+a.nav-link i.fa-circle{
+    padding-right: 10px;
+    font-size:14px;
+}
+
+
+/* Sub-menu */
+.efferhover .nav-item:hover  .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    z-index: 100;
+    transform: translateY(0);
+}
+.efferhover .sub-menu{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    transition: 0.2s;
+    padding: 20px 10px;
+    background: #0662AD;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 0;
+    transform: translateY(300px);
+    transition:.3s;
+    text-align: left;
+    margin-top: 0.3rem;
 }
 
 .efferhover {
@@ -718,7 +748,9 @@ box-sizing: border-box;
     border-radius: 0 0 1px 1px;
     padding: 0 26px 26px 26px;
 }
-
+.mainBODY--slide {
+    padding: 0 26px 95px 26px;
+}
 .bodyHeader {
     position: absolute;
     left: 0;
@@ -3313,6 +3345,34 @@ h3.vk-step-item__title {
 
 .h2-tour h2 {
     text-align: center;
+}
+
+/* Style-Trang-Tour */
+.best-tour{
+    background: 0;
+    padding: 0 0 70px 0;
+}
+
+.besst-des h2 {
+    text-align: center;
+}
+
+.see-button {
+    padding: 0 0 40px 0;
+}
+
+.box-container {
+    border-top: 1px solid;
+}
+/* end */
+
+/* Style-detailtour */
+.title-mini {
+    padding-bottom: 50px;
+}
+
+.card-fixx {
+    padding-top: 40px;
 }
 
 

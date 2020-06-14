@@ -48,8 +48,56 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 /* End Menu */
 
 
+/* Tieu De  Nuoc  */
 
+.title-destination{
+    width: 100%;
+    margin: 50px 0;
+}
+.title-destination h2{
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+/* Location  */
+
+.tab-location
+{
+
+}
+.tab-location .card-header a{
+    text-decoration: none;
+}
+.tab-location .card-header i.fas{
+    font-size: 18px;
+    padding:0 16px;
+    color: #144aa8;
+}
+.tab-location .card-header i.fa-plus{
+    border-left: 1px solid rgba(191,193,194,0.5);
+    border-right: 1px solid rgba(191,193,194,0.5);
+}
+.tab-location .card-header i.fa-book{
+    transform: rotate(15deg);
+}
+.tab-location .card-header strong{
+    font-size: 14px;
+    color: #144aa8;
+}
+.tab-location .card-body ul{
+    padding-left: 40px;
+}
+.tab-location .card_none{
+    border: none;
+    cursor: pointer;
+}
+.tab-location .card-body{
+  border: 1px solid #d7d7d7;
+  margin-top: -10px;
+}
+
+/* End Tab Location */
 /* map-content */
 .map-content{
     padding: 50px 0;
@@ -82,6 +130,9 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
     width: 100%;
     background:#DEEDFB;
     position: relative;
+    
+}
+.map-lits-top,.map-lits-mid{
     margin-bottom: 150px;
 }
 p.title_header{
