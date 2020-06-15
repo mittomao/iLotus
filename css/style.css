@@ -1788,7 +1788,7 @@ h3 {
 }
 
 .nous-nd p {
-    text-align: center;
+    /* text-align: center; */
 }
 
 #panel-1 {
@@ -1801,8 +1801,8 @@ h3 {
 }
 
 .thugd p {
-    padding: 30px;
-    text-align: center;
+    /* padding: 30px;
+    text-align: center; */
 }
 
 #panel-2 {
