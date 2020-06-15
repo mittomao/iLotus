@@ -1788,9 +1788,6 @@ h3 {
     font-family: LatoLatin-Bold;
 }
 
-.nous-nd p {
-    /* text-align: center; */
-}
 
 #panel-1 {
     margin-top: 50px;
@@ -1799,11 +1796,6 @@ h3 {
 
 #panel-1 img {
     border-radius: 50px;
-}
-
-.thugd p {
-    /* padding: 30px;
-    text-align: center; */
 }
 
 #panel-2 {
