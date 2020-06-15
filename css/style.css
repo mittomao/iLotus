@@ -475,6 +475,7 @@ box-sizing: border-box;
 }
 
 .dgdan {
+    text-align: left;
     padding: 20px;
 }
 
@@ -3364,7 +3365,7 @@ h3.vk-step-item__title {
     left: 190px;
 }
 
-.checkbox ul > li  ul.sub-menu {
+.checkbox ul > li  ul.sub-menudowm {
     width: 200px;
     display: none;
     padding: 0px 0px 0px 10px;
