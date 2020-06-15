@@ -86,8 +86,7 @@ p.text_high{
 .tabs_row li.active{
     background-color: #0064a8;
     border-color: #0064a8;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 .tabs_row li.active a{
     color: #fff;

@@ -494,12 +494,30 @@ box-sizing: border-box;
     text-align: justify;
     padding-bottom: 30px;
     color: #000;
+    text-align: center;
     /* background: #def0ff; */
 }
 
 .gt-vn h1 {
-    text-align: center;
     font-family: LatoLatin-Bold;
+    position: relative;
+    display:inline-block;
+    color: #ebaf0b;
+}
+.gt-vn h1:after {
+    content: '';
+    width: 100%;
+    background: #FFF;
+    height: 5px;
+    position: relative;
+    display: block;
+    float: none;
+    margin: 13px 0 0px;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    border-bottom: 5px solid #ebaf0b;
 }
 
 .gt-vn h2 {
@@ -793,10 +811,12 @@ box-sizing: border-box;
  }
  .BodyDescription a{
          line-height:25px;
-         background:#f39c12;
+         background:#DE9102;
          padding: 3px 10px;
          border-radius: 5px;
-         font-size:14px
+         font-size:12px;
+         color: #FFF;
+         font-family: LatoLatin-Bold;       
   }
   .sportligh__price a:hover{
      color: #fff;
@@ -828,11 +848,6 @@ box-sizing: border-box;
     max-height: 54px;
 }
 
-.BodyDescription a {
-    font-size: 14px;
-    color: #1204da !important;
-    font-family: LatoLatin-Bold;
-}
 
 .cardHeaderDay {
     font-size: 14px;
