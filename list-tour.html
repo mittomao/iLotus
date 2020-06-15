@@ -62,8 +62,8 @@
                     <li class=" nav-item">
                         <a class="nav-link" href="#">Destination </a>
                         <ul class="sub-menu">
-                            <li class="nav-item"><a href="destination.html" class="nav-link"><i class="far fa-circle"></i>Việt Nam</a></li>      
-                            <li class="nav-item"><a href="destination.html"  class="nav-link"><i class="far fa-circle"></i>Lào</a></li>      
+                            <li class="nav-item"><a href="destination.html" class="nav-link"><i class="far fa-circle"></i>Viet Nam</a></li>      
+                            <li class="nav-item"><a href="destination.html"  class="nav-link"><i class="far fa-circle"></i>Lao</a></li>      
                             <li class="nav-item"><a href="destination.html"  class="nav-link"><i class="far fa-circle"></i>Campuchia</a></li>      
                             <li class="nav-item"><a href="destination.html"  class="nav-link"><i class="far fa-circle"></i>Myanma</a></li>      
                         </ul>
@@ -104,67 +104,54 @@
                             </div>
                             <div class="link-type">   
                                     <div class="row">
-                                        <div class="checkbox list-re margin-bottom-15">
-                                            <span class="i-tour down-list"><i class="fa fa-sort-down"></i></span>
-                                            <ul>
-                                                <li>
-                                                    <span>Việt Nam</span>
-                                                    <ul class="sub-menu">
-                                                        <li>
-                                                            <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Hạ Long</a>
-                                                        </li>
-                                                        <li>
-                                                            <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Hà Nội</a>
-                                                        </li>
-                                                        <li>
-                                                            <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Huế</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                            <span class="i-tour down-list"><i class="fa fa-sort-down"></i></span>
+                                        <div class="checkbox list-re margin-bottom-15">                                           
+                                            <span class="list-todowm i-tour"><i class="fa fa-sort-down"></i></span>
                                             <ul>
                                                 <li>
                                                     <span>ThaiLand</span>
-                                                    <ul class="sub-menu">
+                                                    <ul class="sub-menudowm">
                                                         <li>
                                                             <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Hạ Long</a>
+                                                            <a href="#">Bangkok</a>
                                                         </li>
                                                         <li>
                                                             <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Hà Nội</a>
+                                                            <a href="#">Phuket</a>
                                                         </li>
                                                         <li>
                                                             <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Huế</a>
+                                                            <a href="#">Pattaya</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                             </ul>
-                                            <span class="i-tour down-list"><i class="fa fa-sort-down"></i></span>
+
+                                            <span class="list-todowm i-tour"><i class="fa fa-sort-down"></i></span>
                                             <ul>
                                                 <li>
-                                                    <span>Laos</span>
-                                                    <ul class="sub-menu">
+                                                    <span>Campuchia</span>
+                                                    <ul class="sub-menudowm">
                                                         <li>
                                                             <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Hạ Long</a>
+                                                            <a href="#">
+                                                                Siem Reap</a>
                                                         </li>
                                                         <li>
                                                             <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Hà Nội</a>
+                                                            <a href="#">
+                                                                Phnom Penh
+                                                                </a>
                                                         </li>
                                                         <li>
                                                             <input class="location" type="checkbox" name="location" id="location" value="599" onclick="filterResults()">
-                                                            <a href="#">Huế</a>
+                                                            <a href="#">
+                                                                Sihanoukville
+                                                                </a>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                            </ul>       
+                                            </ul>
+                                            
                                         </div>
                                     </div>
                             </div>
@@ -549,8 +536,8 @@
     // drop-down
 
     $(document).ready(function(){
-       var a = $('.down-list');
-        var b = $('.sub-menu');
+       var a = $('.list-todowm');
+        var b = $('.sub-menudowm');
             a.each(function(i){
                 a[i].addEventListener("click",function () {
                     $(b[i]).toggle(300);
