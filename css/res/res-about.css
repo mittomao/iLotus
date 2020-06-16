@@ -1,0 +1,52 @@
+@media (max-width: 1200px){
+    .all-pa .text-pa {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px){
+    .img-pa img {
+        height: 22vh;
+    }
+}
+
+@media (max-width: 992px){
+    .trav-one {
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    
+    .trav-two {
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    
+    .trav-three {
+        width: 100%;
+    }
+
+    .all-made .made-one {
+        height: 300px;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    .img-pa img {
+        height: 100%;
+    }
+}
+
+@media (max-width: 320px){
+    .all-made .made-one {
+        height: 373px;
+    }
+}
+
+
+
