@@ -1749,17 +1749,15 @@ h3 {
 }
 
 .nous-about {
-    padding-bottom: 50px;
     padding-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     background-size: cover;
     text-align: center
 }
 
-.nous-about p {
-    color: black;
-    font-size: 20px;
-    /* font-family: Lato-Regular bold; */
+.nous-about h2 {
+    padding: 0 0 30px 0;
+    font-size: 36px;
 }
 
 .link-nous {
@@ -3426,4 +3424,162 @@ h3.vk-step-item__title {
     .best_destination button.owl-next::before {
         right: 15px;
     }
+}
+
+/* Css-trang About-us */
+.nous-nd #panel1 img {
+    width: 100%;
+}
+
+.vk-about__text {
+    font-size: 16px;
+    text-align: left;
+}
+
+#panel2 h2 {
+    font-size: 36px;
+    padding: 0 0 70px 0;
+    text-align: center;
+}
+
+.all-made .made-one {
+    height: 373px;
+    padding: 80px 30px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.all-made .made-one .made-P{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.hi-sub {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.64;
+    color: #5e5e5e;
+}
+
+.tittle-hi {
+    text-align: center;
+    font-size: 55px;
+}
+
+/* center */
+
+.trav-all {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trav-one {
+    width: 33.3333333%;
+    padding: 0 30px 0 0;
+}
+
+.all-made .made-one:hover {
+    background-image: url('https://luxurytravelvietnam.com/frontend/images/about-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    background-size: cover;
+}
+
+.trav-two {
+    width: 33.3333333%;
+    padding: 0 30px 0 0;
+}
+
+.trav-three {
+    width: 33.3333333%;
+}
+
+/* Bootom */
+
+.detai-all {
+    padding: 15px 0;
+}
+
+.all-pa {
+    height: auto;
+    text-align: left;
+    background-color: #f4f4f4;
+    padding: 23px 30px;
+}
+
+.all-pa .h3-pa h3 {
+    font-size: 24px;
+    line-height: 1.21;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 7px;
+    text-align: left;
+}
+
+.all-pa .text-pa {
+    font-size: 14px;
+    line-height: 1.64;
+    color: #5e5e5e;
+}
+
+.all-pa .ceo-pa {
+    font-size: 14px;
+    line-height: 1.64;
+    color: #a2a2a2;
+    margin-bottom: 10px;
+}
+
+.all-bootom {
+    padding: 80px 0;
+}
+
+.all-bootom .travel-bottom {
+    text-align: center;
+}
+
+.all-bootom .travel-bottom button {
+    background: #000;
+    padding: 15px 20px;
+    border: 0;
+}
+
+.all-bootom .travel-bottom button a {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    color: #fff;
+} 
+
+.all-bootom .travel-bottom button a:hover {
+    text-decoration: none;
+}
+
+.img-pa {
+    transition: transform .3s;
+}
+
+.img-pa:hover {
+    transform: scale(1.1);
+}
+
+.img-pa img {
+    width: 100%;
+}
+
+.all-one {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one {
+    overflow: hidden;
+    width: 50%;
+}
+
+.two {
+    width: 50%;
 }
