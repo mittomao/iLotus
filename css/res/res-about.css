@@ -2,11 +2,20 @@
     .all-pa .text-pa {
         font-size: 13px;
     }
+    .img-pa img {
+        height: 40.5vh;
+    }
 }
 
 @media (max-width: 1024px){
     .img-pa img {
         height: 22vh;
+    }
+}
+
+@media (max-width: 1023px){
+    .img-pa img {
+        height: 40.5vh;
     }
 }
 
