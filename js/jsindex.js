@@ -86,10 +86,116 @@ $('#slide_destination').owlCarousel({
             items: 2
         },
         992: {
-            items: 3
+            items: 4
         }
     }
 });
+$('#slide_destination2').owlCarousel({
+    items: 2,
+    loop: true,
+    margin: 30,
+    padding: 15,
+    dots: false,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 4
+        }
+    }
+});
+
+$('#slide_destination3').owlCarousel({
+    items: 2,
+    loop: true,
+    margin: 30,
+    padding: 15,
+    dots: false,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 4
+        }
+    }
+});
+$('#slide_destination4').owlCarousel({
+    items: 2,
+    loop: true,
+    margin: 30,
+    padding: 15,
+    dots: false,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 4
+        }
+    }
+});
+
+$('#slide_destination5').owlCarousel({
+    items: 2,
+    loop: true,
+    margin: 30,
+    padding: 15,
+    dots: false,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 4
+        }
+    }
+});
+
+$('#slide_destination6').owlCarousel({
+    items: 2,
+    loop: true,
+    margin: 30,
+    padding: 15,
+    dots: false,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 4
+        }
+    }
+});
+
+
+
+
+
+
+
+
 $('.slider-review').owlCarousel({
     loop: true,
     margin: 30,
