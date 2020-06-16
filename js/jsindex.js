@@ -86,7 +86,7 @@ $('#slide_destination').owlCarousel({
             items: 2
         },
         992: {
-            items: 4
+            items: 3
         }
     }
 });
@@ -105,7 +105,7 @@ $('#slide_destination2').owlCarousel({
             items: 2
         },
         992: {
-            items: 4
+            items: 3
         }
     }
 });
@@ -125,7 +125,7 @@ $('#slide_destination3').owlCarousel({
             items: 2
         },
         992: {
-            items: 4
+            items: 3
         }
     }
 });
@@ -144,7 +144,7 @@ $('#slide_destination4').owlCarousel({
             items: 2
         },
         992: {
-            items: 4
+            items: 3
         }
     }
 });
@@ -164,7 +164,7 @@ $('#slide_destination5').owlCarousel({
             items: 2
         },
         992: {
-            items: 4
+            items: 3
         }
     }
 });
@@ -184,7 +184,7 @@ $('#slide_destination6').owlCarousel({
             items: 2
         },
         992: {
-            items: 4
+            items: 3
         }
     }
 });
