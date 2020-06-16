@@ -492,7 +492,7 @@ box-sizing: border-box;
 
 .gt-vn {
     text-align: justify;
-    padding-bottom: 30px;
+    padding: 30px 0;
     color: #000;
     text-align: center;
     /* background: #def0ff; */
@@ -502,7 +502,7 @@ box-sizing: border-box;
     font-family: LatoLatin-Bold;
     position: relative;
     display:inline-block;
-    color: #ebaf0b;
+    color: #014d92;
 }
 .gt-vn h1:after {
     content: '';
@@ -512,12 +512,12 @@ box-sizing: border-box;
     position: relative;
     display: block;
     float: none;
-    margin: 13px 0 0px;
+    margin: 5px 0 0px;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-    border-bottom: 5px solid #ebaf0b;
+    border-bottom: 5px solid #014d92;
 }
 
 .gt-vn h2 {
@@ -741,7 +741,7 @@ box-sizing: border-box;
 
 .bannerBODY {
     position: absolute;
-    top: -30px;
+    top: -256px;
     left: 0;
     padding: 8px 14px;
     line-height: 14px;
@@ -770,6 +770,7 @@ box-sizing: border-box;
     padding: 0 26px 95px 26px;
 }
 .bodyHeader {
+    border: 1px solid #dbdbdb;
     position: absolute;
     left: 0;
     padding: 15px;
@@ -3193,7 +3194,7 @@ h3.vk-step-item__title {
 .best_destination {
     overflow: hidden;
     background-color: #f2f2f2;
-    padding: 70px 0;
+    padding: 30px 0 70px 0;
 }
 
 .best_destination .wrap_content_des h3 a {
@@ -3353,12 +3354,22 @@ h3.vk-step-item__title {
     display: none;
 }
 
+.tour-intro {
+    margin: 0 0 40px 0;
+}
+
+.tour-intro:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 /* drop-down */
 
 .i-tour {
     position: relative;
     top: 20px;
     left: 190px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);   
 }
 
 .checkbox ul > li  ul.sub-menudowm {
@@ -3389,8 +3400,12 @@ h3.vk-step-item__title {
     text-align: center;
 }
 
-section.tour-intro:nth-child(even){
-    background:#f2f2f2;
+.color_best {
+    background: 0;
+}
+
+.back-one {
+    background-color: #6792c41a;
 }
 /* Style-Trang-Tour */
 .best-tour{
