@@ -1787,6 +1787,9 @@ h3 {
     font-family: LatoLatin-Bold;
 }
 
+div#panel5 {
+    margin: 30px 0;
+}
 
 #panel-1 {
     margin-top: 50px;
