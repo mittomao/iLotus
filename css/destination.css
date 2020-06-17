@@ -80,10 +80,6 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 
 /* Location  */
 
-.tab-location
-{
-    
-}
 .tab-content
 {
     background:transparent;
@@ -125,8 +121,6 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 
 
 /* sportligh */
-.sportligh{
-}
 .sportligh__wrap{
     background:#f4f4f4;
 
@@ -141,6 +135,7 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 }
 
 .sportligh__img  img{
+    height: 200px;
     width: 100%;
     object-fit: cover;
 }
@@ -154,8 +149,9 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
     font-weight:400;
 }
 .sportligh__body {
-        padding: 10px;
-        background:#fff;
+    height: 170px;
+    padding: 10px;
+    background:#fff;
 }
 .sportligh__body span.day{
     font-size: 14px;
@@ -163,10 +159,15 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 
 }
 .sportligh__body a{
+    font-family: 'Bigelow Rules', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-decoration: none;
     cursor: pointer;
-   display:block;
-   font-size: 18px;
+    display:block;
+    font-size: 20px;
     line-height: 23px;
     letter-spacing: 1px;
     color: #000;
@@ -183,17 +184,21 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
     align-items: center;
 }
 .sportligh__price span.price{
-   font-size:18px;
-   font-family: cursive;
+    font-family: 'Bigelow Rules', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+   font-size: 23px;
+   /* font-family: cursive; */
    font-weight: 600;
 }
 .sportligh__price a{
-        line-height:30px;
-        background:#f39c12;
-        padding: 5px 15px;
-        border-radius: 5px;
-        font-size:12px;
-        color: #fff;
+    line-height: 25px;
+    background: #faba40;
+    padding: 10px 30px;
+    font-size: 13px;
+    color: #FFF;
+    font-family: LatoLatin-Bold;
  }
  .sportligh__price a:hover{
     color: #fff;

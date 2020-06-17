@@ -772,6 +772,8 @@ box-sizing: border-box;
 
 .bodyHeader h4 {
     height: 70px;
+    font-family: 'Playfair Display', serif;
+    
 }
 
 .bodyHeader {
@@ -791,17 +793,21 @@ box-sizing: border-box;
 .bodyHeader a {
     text-decoration: none;
     cursor: pointer;
-   display:block;
-   font-size: 18px;
+    display:block;
+    font-size: 20px;
     line-height: 23px;
     letter-spacing: 1px;
     color: #000;
-    font-weight: 400;
+    /* font-weight: 400; */
+}
+
+.bodyHeader a:hover {
+    color: #faba40;
 }
 
 .BodyDescription {
     opacity: 0;
-    color: #757B82;
+    /* color: #757B82; */
     line-height: 25px;
     transition: all .1s ease-in-out;
     margin-top: 10px;
@@ -814,24 +820,47 @@ box-sizing: border-box;
     opacity: 1;
 }
 
-.BodyDescription span.price{
-    font-size:18px;
-    font-family: cursive;
+.BodyDescription span.price {
+    font-size: 23px;
+    /* font-family: cursive; */
     font-weight: 600;
- }
- .BodyDescription a{
+    font-family: 'Playfair Display', serif;
+}
+ 
+.BodyDescription a{
     line-height: 25px;
     background: #faba40;
     padding: 10px 30px;
-    font-size: 12px;
-    color: #FFF;
+    font-size: 13px;
+    color: #000;
     font-family: LatoLatin-Bold;      
-  }
+}
+
+.list-todowm {
+    box-shadow: none;
+}
+
+.BodyDescription a:hover {
+      color: #fff;
+}
   .sportligh__price a:hover{
      color: #fff;
  }
 .DIVCARD:hover .cardHeaderHidden {
     background-color: rgba(0, 0, 0, 0.377);
+}
+
+.cardHeaderHidden a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.divHEADER {
+    overflow: hidden;
+    /* width: 100%; */
+    height: 205px;
 }
 
 .cardHeaderHidden {
@@ -3137,14 +3166,20 @@ h3.vk-step-item__title {
 }
 
 .best_destination .item {
+    overflow: hidden;
     border: 1px solid #dbdbdb;
     transition: .5s;
 }
 
 .best_destination .item .img_slider_des {
+    transition: transform .3s;
     overflow: hidden;
     width: 100%;
     height: 255px;
+}
+
+.best_destination .item .img_slider_des:hover {
+    transform: scale(1.1);
 }
 
 .best_destination .item:hover {
