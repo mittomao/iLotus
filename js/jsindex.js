@@ -189,6 +189,26 @@ $('#slide_destination6').owlCarousel({
     }
 });
 
+$('#slide_destination7').owlCarousel({
+    items: 2,
+    loop: true,
+    margin: 30,
+    padding: 15,
+    dots: false,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 3
+        }
+    }
+});
+
 
 
 

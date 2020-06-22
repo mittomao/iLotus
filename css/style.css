@@ -802,7 +802,7 @@ box-sizing: border-box;
 }
 
 .bodyHeader a:hover {
-    color: #faba40;
+    color: #004f9d;
 }
 
 .BodyDescription {
@@ -829,10 +829,10 @@ box-sizing: border-box;
  
 .BodyDescription a{
     line-height: 25px;
-    background: #faba40;
+    background: #004f9d;
     padding: 10px 30px;
     font-size: 13px;
-    color: #000;
+    color: #fff;
     font-family: LatoLatin-Bold;      
 }
 
