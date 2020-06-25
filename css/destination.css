@@ -100,8 +100,7 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
     transform: rotate(15deg);
 }
 .tab-location .card-header strong{
-    font-size: 14px;
-    color: #144aa8;
+    color: #000;
 }
 .tab-location .card-body ul{
     padding-left: 40px;
@@ -149,8 +148,8 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
     font-weight:400;
 }
 .sportligh__body {
-    height: 170px;
-    padding: 10px;
+    padding: 30px 22px;
+    height: 375px;
     background:#fff;
 }
 .sportligh__body span.day{
@@ -159,10 +158,6 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 
 }
 .sportligh__body a{
-    font-family: 'Bigelow Rules', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
     cursor: pointer;
@@ -194,7 +189,7 @@ nav.navbar.navbar-expand-lg.nav__bar--header {
 }
 .sportligh__price a{
     line-height: 25px;
-    background: #faba40;
+    background: #004f9d;
     padding: 10px 30px;
     font-size: 13px;
     color: #FFF;
@@ -296,6 +291,7 @@ p.title_header{
 }
 
 h2.title_cate{
+    border-radius: 5px;
     background: #F7F7F7;
     margin-bottom: 10px;
     padding-left: 5px;
@@ -637,4 +633,16 @@ h2.title_cate{
         right: 10px;
     }
 
+}
+/* css trang des */
+.post_new {
+    text-align: center;
+    height: 80px;
+}
+.sportligh__body p {
+    height: 185px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #696969;
+    margin-bottom: 15px;
 }

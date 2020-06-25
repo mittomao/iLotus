@@ -3191,10 +3191,12 @@ h3.vk-step-item__title {
 }
 
 .best_destination .wrap_content_des h3 {
+    height: 135px;
     min-height: 62px;
 }
 
 .best_destination .wrap_content_des .content_des {
+    height: 170px;
     font-size: 14px;
     line-height: 1.5;
     color: #696969;
@@ -3643,4 +3645,8 @@ h3.vk-step-item__title {
 
 .two {
     width: 50%;
+}
+
+.list-todowm {
+    box-shadow: none;
 }
